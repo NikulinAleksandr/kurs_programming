@@ -44,3 +44,17 @@ else
     Console.WriteLine("{0} число четное", num);
 Console.ReadLine();
 */
+
+
+//Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+/*
+int num;
+Console.WriteLine("Введите число: ");
+num = Convert.ToInt32(Console.ReadLine());
+int i = 1;
+while (i < num)
+{
+    Console.WriteLine(i + 1);
+    i += 2;
+}
+*/
