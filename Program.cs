@@ -32,3 +32,15 @@ if (num3 > max);
     max = num3;				
 Console.WriteLine("{0} максимальное число", max);				
 */	
+
+//Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+/*
+int num;
+Console.WriteLine("Введите число: ");
+num = Convert.ToInt32(Console.ReadLine()); 
+if (num % 2 != 0)
+    Console.WriteLine("{0} число не четное", num);
+else 
+    Console.WriteLine("{0} число четное", num);
+Console.ReadLine();
+*/
