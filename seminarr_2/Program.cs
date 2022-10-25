@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+/*
+int num;
+Console.WriteLine("Введите трехзначное число: ");
+num = Convert.ToInt32(Console.ReadLine());
+num = num/10;
+int i = num%10;
+Console.WriteLine($"Вторая цифра числа равна {i}");
+*/
+
